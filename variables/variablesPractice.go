@@ -6,7 +6,7 @@ func main() {
 	// Normal Creation
 	var var1 int
 
-	// Short hand creation (it don't need datatype if you put you will get error)
+	// Short hand creation (it don't need datatype if you put you will get error) also whatever datatype value you put on right side variable becomes of that type , next time you can only assign a new value of same type (as defined first) no other datatype value wont be assigned
 	var2 := 2
 
 	// Example for block creation
