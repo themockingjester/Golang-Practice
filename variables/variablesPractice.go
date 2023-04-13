@@ -30,4 +30,8 @@ func main() {
 		var6, //455
 		var7, //234
 		var8) //69  : Ascii code for E
+
+	// variable having dynamic datatype
+	var var9 any
+	fmt.Println(var9) // <nil> : remember you can assign any type of value to this variable
 }
