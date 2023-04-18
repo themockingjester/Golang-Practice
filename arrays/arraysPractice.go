@@ -14,4 +14,9 @@ func main() {
 	fmt.Println(arr3)                   //[34 56 7]
 	fmt.Println(arr4)                   //[1 56 3 0]
 
+	for i := 0; i < len(arr2); i++ {
+		fmt.Println(arr2[i])
+	}
+
+	fmt.Println(arr2[1:3]) // [45 67] : using slicing operation
 }
