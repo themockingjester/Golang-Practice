@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func init() {
+	// init function is the unique function that calls before the main function get called , also each package can have its own init function
+	fmt.Println("This function will call before main function thats why best suited for doing initialization kind of work for app.")
+}
 func main() {
 
 	fmt.Println(functionWithSingleReturn(2, 45)) //47
